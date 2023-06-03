@@ -1,0 +1,18 @@
+{
+  "name": "thefarmersmarket",
+  "version": "1.0.0",
+  "description": "A subsidiary partner of Calabar Food Fest, specialized in supporting the sales of organic product and bringing the farmers to the customer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kohly Akpet",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}
