@@ -12,15 +12,12 @@
   font-family: var(--font-sansation);
 }
 
-
 /*body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }*/
 
-
-
 .test {
-  border: #0a0a0a 1px solid
+  border: #0a0a0a 1px solid;
 }
