@@ -1,17 +1,16 @@
-import Image from "next/image";
 import {Plus} from "lucide-react";
 
 function ProductCard() {
   return (
-    <div className="grid grid-cols-4 gap-5">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
-        <Image
-          src="/products/garri.jpg"
-          width="141"
-          height="135"
-          alt="Garri"
-          className="m-auto"
-        ></Image>
+        <div className="h-36 w-10/12 m-auto">
+          <img
+            className="h-36 object-contain"
+            src="/products/garri.jpg"
+            alt="Garri"
+          />
+        </div>
 
         <div className="absolute bottom-28">
           <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
@@ -20,21 +19,21 @@ function ProductCard() {
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
           <p>#50</p>
-          <p className="text-white flex gap-2 items-center rounded-sm text-base border-solid px-4 py-1 bg-green-500 hover:bg-green-600">
-            <Plus size="18" color="white" />
+          <p className="text-white flex gap-2 items-center rounded-sm text-sm border-solid px-4 py-1 bg-green-500 hover:bg-green-600">
+            <Plus size="15" color="white" />
             Add
           </p>
         </div>
       </div>
 
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
-        <Image
-          src="/products/plantain.png"
-          width="141"
-          height="135"
-          alt="Plantain"
-          className="m-auto absolute bottom-44 w-fit"
-        ></Image>
+        <div className="h-36 w-10/12 m-auto">
+          <img
+            className="h-36 object-contain"
+            src="/products/plantain.png"
+            alt="Plantain"
+          />
+        </div>
 
         <div className="absolute bottom-28">
           <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
@@ -50,13 +49,13 @@ function ProductCard() {
         </div>
       </div>
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
-        <Image
-          src="/products/sweet_potato.jpg"
-          width="141"
-          height="135"
-          alt="Sweet Potato"
-          className="m-auto absolute bottom-40 w-fit"
-        ></Image>
+        <div className="h-36 w-10/12 m-auto">
+          <img
+            className="h-36 object-contain"
+            src="/products/sweet_potato.jpg"
+            alt="Sweet Potato"
+          />
+        </div>
 
         <div className="absolute bottom-28">
           <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
@@ -72,13 +71,13 @@ function ProductCard() {
         </div>
       </div>
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
-        <Image
-          src="/products/irish_potato.jpg"
-          width="141"
-          height="135"
-          alt="Irish Potato"
-          className="m-auto"
-        ></Image>
+        <div className="h-36 w-10/12 m-auto">
+          <img
+            className="h-36 object-contain"
+            src="/products/irish_potato.jpg"
+            alt="Irish Potato"
+          />
+        </div>
 
         <div className="absolute bottom-28">
           <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
@@ -94,13 +93,13 @@ function ProductCard() {
         </div>
       </div>
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
-        <Image
-          src="/products/crayfish.jpg"
-          width="141"
-          height="135"
-          alt="Crayfish"
-          className="m-auto"
-        ></Image>
+        <div className="h-36 w-10/12 m-auto">
+          <img
+            className="h-36 object-contain"
+            src="/products/crayfish.jpg"
+            alt="Crayfish"
+          />{" "}
+        </div>
 
         <div className="absolute bottom-28">
           <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
