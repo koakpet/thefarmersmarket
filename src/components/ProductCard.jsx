@@ -2,7 +2,7 @@ import {Plus} from "lucide-react";
 
 function ProductCard() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-5 my-6">
       <div className="relative p-2.5 h-82 border border-solid border-gray-400 hover:border-green-500 hover:shadow-xl rounded-xl">
         <div className="h-36 w-10/12 m-auto">
           <img
@@ -13,8 +13,8 @@ function ProductCard() {
         </div>
 
         <div className="absolute bottom-28">
-          <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
-          <h3 className="font-semibold tracking-wide">Garri</h3>
+          <p className="text-gray-300 text-xs">Dassah's Market Place</p>
+          <p className="font-semibold tracking-wide">Garri</p>
         </div>
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
@@ -36,8 +36,8 @@ function ProductCard() {
         </div>
 
         <div className="absolute bottom-28">
-          <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
-          <h3 className="font-semibold tracking-wide">Plantain</h3>
+          <p className="text-gray-300  text-xs">Dassah's Market Place</p>
+          <p className="font-semibold tracking-wide">Plantain</p>
         </div>
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
@@ -58,8 +58,8 @@ function ProductCard() {
         </div>
 
         <div className="absolute bottom-28">
-          <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
-          <h3 className="font-semibold tracking-wide">Sweet Potato</h3>
+          <p className="text-gray-300  text-xs">Dassah's Market Place</p>
+          <p className="font-semibold tracking-wide">Sweet Potato</p>
         </div>
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
@@ -80,8 +80,8 @@ function ProductCard() {
         </div>
 
         <div className="absolute bottom-28">
-          <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
-          <h3 className="font-semibold tracking-wide">Irish Potato</h3>
+          <p className="text-gray-300  text-xs">Dassah's Market Place</p>
+          <p className="font-semibold tracking-wide">Irish Potato</p>
         </div>
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
@@ -102,8 +102,8 @@ function ProductCard() {
         </div>
 
         <div className="absolute bottom-28">
-          <h5 className="text-gray-300 text-sm">Dassah's Market Place</h5>
-          <h3 className="font-semibold tracking-wide">Crayfish</h3>
+          <p className="text-gray-300  text-xs">Dassah's Market Place</p>
+          <p className="font-semibold tracking-wide">Crayfish</p>
         </div>
 
         <div className="flex justify-between items-center absolute bottom-3.5 w-11/12">
