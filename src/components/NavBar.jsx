@@ -8,7 +8,7 @@ import {X} from "lucide-react";
 import LogIn from "./LogIn";
 
 function NavBar() {
-  const [logInToggle, setLogInToggle] = useState(true);
+  const [logInToggle, setLogInToggle] = useState(false);
 
   function logInBotton() {
     setLogInToggle(true);
@@ -50,12 +50,18 @@ function NavBar() {
         {/* <input type="search" name="Search" id="search" className="text-2xl md:hidden bg-slate-300 rounded-4xl" /> */}
 
         {logInToggle && (
-          <div className="fixed top-16 left-[0.5vw] h-10/12 w-[96vw] md:top-20 md:left-[7vw] md:h-10/12 md:w-[84vw] bg-gray-50 border border-gray-300 rounded-xl shadow-2xl">
+          <div className="fixed top-15 left-0 h-full w-full md:top-20 md:left-[7vw] md:h-10/12 md:w-[84vw] bg-gray-50 border border-gray-300 md:rounded-xl shadow-2xl">
             <button
               onClick={close}
-              className="absolute right-2 top-1.5 cursor-pointer hover:text-slate-600"
+              className="hidden md:block absolute right-2 top-1.5 cursor-pointer hover:text-slate-600"
             >
               <X size="15" />
+            </button>
+            <button
+              onClick={close}
+              className="md:hidden text-xs hover:underline active:underline absolute right-2 top-1.5 cursor-pointer hover:text-slate-600 active:text-slate-600"
+            >
+              close
             </button>
             <LogIn />
           </div>
