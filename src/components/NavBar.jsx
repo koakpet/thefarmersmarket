@@ -36,9 +36,9 @@ function NavBar() {
             id="search"
             className="text-2xl hidden md:block bg-slate-300 rounded-4xl"
           />
-          <div className="cursor-pointer hover:text-slate-600">
+          <Link href="/cart" className="cursor-pointer hover:text-slate-600">
             <ShoppingCart size="18" />
-          </div>
+          </Link>
 
           <div
             className="cursor-pointer hover:text-slate-600"
