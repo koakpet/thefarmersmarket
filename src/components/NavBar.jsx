@@ -19,7 +19,7 @@ function NavBar() {
   }
 
   return (
-    <nav className="fixed top-0 w-full py-3 px-3 md:px-28 z-50 bg-gray-50 opacity-95 shadow-sm">
+    <nav className="fixed top-0 w-full py-3 px-3 md:px-28 z-50 bg-gray-50 shadow-sm">
       <div className="flex justify-between">
         <Link href="/" className="festive text-2xl md:text-3xl">
           the
@@ -34,11 +34,15 @@ function NavBar() {
             type="search"
             name="Search"
             id="search"
-            className="text-2xl hidden md:block bg-slate-300 rounded-4xl"
+            className="hidden md:block text-sm p-1 outline-1 outline-slate-300 rounded-sm focus:outline-green-300"
           />
           <Link href="/cart" className="cursor-pointer hover:text-slate-600">
             <ShoppingCart size="18" />
           </Link>
+
+          {/* <Link href="/signin" className="cursor-pointer hover:text-slate-600">
+            <UserCircleIcon size="21" />
+          </Link> */}
 
           <div
             className="cursor-pointer hover:text-slate-600"

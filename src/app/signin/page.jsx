@@ -1,4 +1,4 @@
-"use Client";
+"use client";
 
 import {useState} from "react";
 
@@ -14,7 +14,7 @@ function LogIn() {
   }
 
   return (
-    <div className="m-auto w-4/12 h-5/6 flex justify-center items-center">
+    <div className="mt-24 m-auto w-4/12 h-5/6 flex justify-center items-center">
       {isHidden ? (
         <form action="">
           <p className="font-semibold">Sign in</p>
