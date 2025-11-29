@@ -14,7 +14,7 @@ function LogIn() {
   }
 
   return (
-    <div className="m-auto w-4/12 h-5/6 flex justify-center items-center">
+    <div className="m-auto w-10/12 md:w-4/12 h-5/6 flex justify-center items-center">
       {isHidden ? (
         <form action="">
           <p className="font-semibold">Sign in</p>
@@ -59,6 +59,13 @@ function LogIn() {
               className="rounded-md text-md p-1.5  bg-white outline-1 outline-gray-300 focus:outline-green-300"
             />
           </div>
+
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Phone number"
+            className="mt-3 rounded-md text-md p-1.5 w-full bg-white outline-1 outline-gray-300 focus:outline-green-300"
+          />
           <input
             type="email"
             id="email"
